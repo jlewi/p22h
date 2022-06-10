@@ -1,4 +1,4 @@
-import 'package:feed/backlinks/backlink.dart';
+import 'package:feed/backlinks/types.dart';
 import 'package:http/http.dart' as http;
 import 'package:uri/uri.dart';
 import 'dart:convert';

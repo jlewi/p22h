@@ -2,7 +2,7 @@ import 'package:json_annotation/json_annotation.dart';
 
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-part 'backlink.g.dart';
+part 'types.g.dart';
 
 // Following: https://pub.dev/packages/json_serializable define
 // a class to contain the JSON information
@@ -51,23 +51,3 @@ class BackLinkList {
   /// Connect the generated [_$BackLinkListToJson] function to the `toJson` method.
   Map<String, dynamic> toJson() => _$BackLinkListToJson(this);
 }
-
-// parseResultList takes a string containing a JSON list of items and
-// parses it into a list of BackLink.
-// List<BackLink> parseResultList(String contents) {
-//   List<BackLink> docs = [];
-//   List<dynamic> results = [];
-
-//   results = jsonDecode(contents);
-//   for (final r in results) {
-//     // if (r["doc"] == null) {
-//     //   continue;
-//     // }
-//     //var l = jsonEncode(r);
-//     // print("Parsing $r");
-//     var d = BackLink.fromJson(r);
-//     docs.add(d);
-//   }
-//   print("Length of results: ${docs.length}");
-//   return docs;
-// }

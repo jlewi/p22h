@@ -1,7 +1,7 @@
 import 'package:feed/backlinks/documents_service.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:feed/backlinks/backlink.dart';
+import 'package:feed/backlinks/types.dart';
 import 'dart:async';
 
 class Backlinks extends StatefulWidget {

@@ -1,6 +1,6 @@
 // Import the test package and Counter class
 import 'package:test/test.dart';
-import 'package:feed/backlinks/backlink.dart';
+import 'package:feed/backlinks/types.dart';
 import 'package:feed/backlinks/documents_service.dart';
 import 'package:http/testing.dart' as hTesting;
 import 'package:http/http.dart' as http;
