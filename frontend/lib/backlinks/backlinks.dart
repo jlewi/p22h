@@ -69,7 +69,7 @@ class _BacklinksWidgetState extends State<Backlinks> {
                 color: Colors.grey[500],
               )),
           Expanded(
-              child: BacklinksList(
+              child: Results(
                   docs: widget.docs, docStream: widget.docStream.stream)),
         ],
       ),
@@ -87,14 +87,14 @@ class _BacklinksWidgetState extends State<Backlinks> {
   }
 }
 
-class BacklinksList extends StatefulWidget {
+class Results extends StatefulWidget {
   // N.B. Data that needs to be injected into the state class is stored in
   // the widget. The state class can use its member variable widget to
   // access variables stored in the corresponding StatefulWidget class
   final DocumentsService docs;
   // docStream is a string of which doc to process
   final Stream docStream;
-  const BacklinksList(
+  const Results(
       {Key? key,
       required DocumentsService this.docs,
       required Stream this.docStream})
@@ -110,10 +110,10 @@ class BacklinksList extends StatefulWidget {
   // always marked "final".
 
   @override
-  State<BacklinksList> createState() => _BacklinksListState();
+  State<Results> createState() => _ResultsState();
 }
 
-class _BacklinksListState extends State<BacklinksList> {
+class _ResultsState extends State<Results> {
   late Future<BackLinkList> futureLinks;
 
   // setDoc sets the document to fetch the links for
