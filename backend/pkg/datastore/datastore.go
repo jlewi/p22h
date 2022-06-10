@@ -3,7 +3,7 @@ package datastore
 import (
 	"fmt"
 	"github.com/go-logr/logr"
-	"github.com/jlewi/pkg/backend/pkg/logging"
+	"github.com/jlewi/p22h/backend/pkg/logging"
 	"github.com/pkg/errors"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"

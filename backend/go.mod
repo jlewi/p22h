@@ -1,4 +1,4 @@
-module github.com/jlewi/pkg/backend
+module github.com/jlewi/p22h/backend
 
 go 1.16
 

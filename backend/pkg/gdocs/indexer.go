@@ -2,8 +2,8 @@ package gdocs
 
 import (
 	"github.com/go-logr/logr"
-	"github.com/jlewi/pkg/backend/pkg/datastore"
-	"github.com/jlewi/pkg/backend/pkg/logging"
+	"github.com/jlewi/p22h/backend/pkg/datastore"
+	"github.com/jlewi/p22h/backend/pkg/logging"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/pkg/errors"
 	"google.golang.org/api/docs/v1"
