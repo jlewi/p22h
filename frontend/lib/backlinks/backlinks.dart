@@ -114,7 +114,7 @@ class Results extends StatefulWidget {
 }
 
 class _ResultsState extends State<Results> {
-  late Future<BackLinkList> futureLinks;
+  Future<BackLinkList>? futureLinks;
 
   // setDoc sets the document to fetch the links for
   void setDoc(String doc) {
@@ -133,9 +133,6 @@ class _ResultsState extends State<Results> {
   @override
   void initState() {
     super.initState();
-    // TODO(jeremy): How should we initialize it before data has been entered?
-    //futureLinks = widget.docs.getBackLinks();
-
     // Setup a subscription which will call setDoc each time a doc is entered
     widget.docStream.listen((docName) {
       setDoc(docName);
@@ -214,13 +211,14 @@ class _ResultsState extends State<Results> {
 
   @override
   Widget build(BuildContext context) {
-    //print("# loaded docs $docs.length");
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
+
+    if (futureLinks == null) {
+      return Text("No results to load. Select a doc to load backlinks for");
+    }
+
     return Scaffold(
       // TODO(jeremy): Should we also be defining the sidebar
       // here? How do we avoid circular dependencies if
