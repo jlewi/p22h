@@ -151,12 +151,13 @@ class _ResultsState extends State<Results> {
       docId = link.docId as String;
     }
 
+    // Create a row to display the backlink information.
     Widget row = Container(
       padding: const EdgeInsets.all(32),
       child: Row(
         children: [
           Expanded(
-            /*1*/
+            /* Column 1 is the text of the link*/
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -165,6 +166,9 @@ class _ResultsState extends State<Results> {
                   padding: const EdgeInsets.only(bottom: 8),
                   // N.B. Could also use RichText
                   // https://stackoverflow.com/questions/43583411/how-to-create-a-hyperlink-in-flutter-widget
+                  //
+                  // N.B. when you however over it you don't get the link.
+                  // You also can't right click and copy the link.
                   child: new InkWell(
                       child: new Text(
                         text,
@@ -172,10 +176,10 @@ class _ResultsState extends State<Results> {
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      onTap: () => launch(docId)),
+                      onTap: () => launch(link.getDocLink())),
                 ),
                 Text(
-                  "some other column",
+                  link.docId!,
                   style: TextStyle(
                     color: Colors.grey[500],
                   ),
@@ -188,8 +192,7 @@ class _ResultsState extends State<Results> {
             Icons.document_scanner,
             color: Colors.red[500],
           ),
-          _buildLinkWidget(
-              text, "http://this/is/a/hardcoded/link/to/docId/" + docId),
+          _buildLinkWidget(text, link.getDocLink()),
         ],
       ),
     );
@@ -198,14 +201,23 @@ class _ResultsState extends State<Results> {
 
   // Return a widget with a link
   Widget _buildLinkWidget(text, link) {
+    // show link on hover
     Widget row = new InkWell(
-        child: new Text(
-          text,
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-          ),
+      child: new Text(
+        text,
+        style: TextStyle(
+          fontWeight: FontWeight.bold,
         ),
-        onTap: () => launch(link));
+      ),
+      onTap: () => launch(link),
+      onHover: (event) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text(link),
+          ),
+        );
+      },
+    );
     return row;
   }
 

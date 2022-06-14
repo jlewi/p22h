@@ -30,6 +30,15 @@ class BackLink {
 
   /// Connect the generated [_$BackLinkToJson] function to the `toJson` method.
   Map<String, dynamic> toJson() => _$BackLinkToJson(this);
+
+  String getDocLink() {
+    // split string
+    List<String> pieces = docId!.split(".");
+    if (pieces.length <= 1) {
+      return "";
+    }
+    return "https://docs.google.com/document/d/${pieces[1]}";
+  }
 }
 
 @JsonSerializable()
