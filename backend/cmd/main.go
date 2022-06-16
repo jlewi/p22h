@@ -17,6 +17,7 @@ limitations under the License.
 package main
 
 import (
+	language "cloud.google.com/go/language/apiv1"
 	"context"
 	"encoding/json"
 	"fmt"
@@ -247,11 +248,15 @@ func newFetchDocCmd() *cobra.Command {
 func newIndexCmd() *cobra.Command {
 	var dbFile string
 	var drive string
+	var file string
 	cmd := &cobra.Command{
 		Use:   "index",
 		Short: "Index Google Drive.",
 		Run: func(cmd *cobra.Command, args []string) {
 			err := func() error {
+				if file == "" && drive == "" {
+					return errors.Errorf("One of --file and --drive must be set")
+				}
 				// Create gdocs client
 				helper := getWebFlowLocal()
 				if helper == nil {
@@ -280,20 +285,35 @@ func newIndexCmd() *cobra.Command {
 				if err != nil {
 					return errors.Wrapf(err, "failed to create docs service; error %v")
 				}
-				indexer, err := gdocs.NewIndexer(gClient, docsService, store, log)
+
+				nlpClient, err := language.NewClient(context.Background())
+
+				if err != nil {
+					return errors.Wrapf(err, "failed to create Google Cloud Language Client; error %v")
+				}
+
+				indexer, err := gdocs.NewIndexer(gClient, docsService, store, nlpClient, log, gdocs.IndexerWithHTTPClient(client))
 
 				if err != nil {
 					return errors.Wrapf(err, "Failed to create drive indexer")
 				}
 
-				if err := indexer.Index(drive); err != nil {
-					return errors.Wrapf(err, "Failed to index drive %v", drive)
+				if file != "" {
+					if err := indexer.IndexDocument(file); err != nil {
+						return errors.Wrapf(err, "Failed to index drive %v", drive)
+					}
+				}
+
+				if drive != "" {
+					if err := indexer.Index(drive); err != nil {
+						return errors.Wrapf(err, "Failed to index drive %v", drive)
+					}
 				}
 				return nil
 			}()
 
 			if err != nil {
-				log.Error(err, "Failed to index Google Drive")
+				log.Error(err, fmt.Sprintf("Failed to index Google Drive: %+v", err))
 			}
 		},
 	}
@@ -304,7 +324,7 @@ func newIndexCmd() *cobra.Command {
 	cmd.Flags().StringVarP(&dbFile, "database", "", dbDefault, "The path of the sqllite database to use")
 
 	cmd.Flags().StringVarP(&drive, "drive", "d", "", "The ID of the drive to index")
-	cmd.MarkFlagRequired("doc")
+	cmd.Flags().StringVarP(&file, "file", "f", "", "The ID of a specific file to index")
 	return cmd
 }
 

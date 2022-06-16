@@ -63,3 +63,54 @@ type DocLink struct {
 	// EndIndex of the text for the link.
 	EndIndex int64
 }
+
+// EntityMention is the mention of some entity in a doc.
+//
+// We do not rely on GormAssociations for a couple reasons
+// 1. We want to stick with a CRUD API to allow for more flexible backends
+// 2. Using associations adds complexity in terms of how it gets used
+//    I believe in order to populate associations its doing joins
+//    There's also confusion on which fields user should set to update when using a BelongsTo association
+//    as there are separate fields for the foreign key and the reference.
+// 3. GraphQL might be a better API for joins.
+//
+// A specific entity can appear more than once in a given doc.
+//
+// TODO(jeremy): We also need an Entity table and should attempt to do some entity linking.
+type EntityMention struct {
+	// The unique id follows the convention docId-startIndex-endindex.
+	// Assumption is a given range can only be a single entity.
+	ID        string `gorm:"primarykey"`
+	CreatedAt time.Time
+	UpdatedAt time.Time
+	DeletedAt gorm.DeletedAt `gorm:"index"`
+	// DocID is the id of the doc
+	DocID    string `gorm:"index"`
+	EntityID string
+	// Text associated with the entity
+	Text string
+	// StartIndex of the text for the link.
+	StartIndex int64
+	// EndIndex of the text for the link.
+	EndIndex int64
+}
+
+// Entity is a unique entity.
+type Entity struct {
+	ID        string `gorm:"primarykey"`
+	CreatedAt time.Time
+	UpdatedAt time.Time
+	DeletedAt gorm.DeletedAt `gorm:"index"`
+
+	// Name is the canonical name of the entity
+	Name string
+
+	// Type of entity
+	Type string
+
+	// WikipediaURL associated with this entity if there is one.
+	WikipediaUrl string
+
+	// MID is the Google Knowledge Graph MID if there is one
+	MID string `gorm:"column:mid"`
+}

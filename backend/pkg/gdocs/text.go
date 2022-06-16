@@ -7,6 +7,8 @@ import (
 
 // ReadText reads all the text from the provided document.
 // It is based on https://developers.google.com/docs/api/samples/extract-text#python.
+//
+// TODO(https://github.com/jlewi/p22h/issues/1): Linearize text so as to preserve positioning.
 func ReadText(doc *docs.Document) (string, error) {
 	if doc == nil {
 		return "", errors.New("doc is a required argument")
