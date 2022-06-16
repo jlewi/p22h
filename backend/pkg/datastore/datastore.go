@@ -33,6 +33,13 @@ func DocLinkKey(link DocLink) string {
 	return fmt.Sprintf("%v-%v-%v-%v", link.SourceID, link.DestID, link.StartIndex, link.EndIndex)
 }
 
+// EntityMentionKey generates the primary key for the given EntityMention.
+// WARNING: Changing this code will break existing databases since existing data will not have
+// compatible keys.
+func EntityMentionKey(m EntityMention) string {
+	return fmt.Sprintf("%v-%v-%v-%v", m.DocID, m.EntityID, m.StartIndex, m.EndIndex)
+}
+
 // New creates a new datastore.
 func New(dbFile string, logger logr.Logger) (*Datastore, error) {
 	if dbFile == "" {
@@ -70,6 +77,12 @@ func (d *Datastore) updateSchema() error {
 	}
 	if err := d.db.AutoMigrate(&DocLink{}); err != nil {
 		return errors.Wrapf(err, "Failed to automigrate the schema for DocLink")
+	}
+	if err := d.db.AutoMigrate(&Entity{}); err != nil {
+		return errors.Wrapf(err, "Failed to automigrate the schema for Entity")
+	}
+	if err := d.db.AutoMigrate(&EntityMention{}); err != nil {
+		return errors.Wrapf(err, "Failed to automigrate the schema for EntityMention")
 	}
 	return nil
 }
@@ -175,6 +188,150 @@ func (d *Datastore) ListDocLinks(destId string) ([]*DocLink, error) {
 
 	if result := db.Find(&links); result.Error != nil {
 		return nil, errors.Wrapf(result.Error, "Failed to find all doc links")
+	}
+
+	return links, nil
+}
+
+// UpdateEntity updates or creates the Entity
+//
+// TODO(jeremy): The semantics for dealing with multiple entities with the same name are ill defined. Right now
+// it is the caller's job to do entity linking before calling UpdateEntity. If an entity with a given name already
+// exists in the database but m represents a different entity with the same name then caller should assign a unique
+// id to it.
+func (d *Datastore) UpdateEntity(m *Entity) error {
+	if m.Name == "" {
+		return fmt.Errorf("Name is required")
+	}
+
+	// Default ID to Name
+	if m.ID == "" {
+		m.ID = m.Name
+	}
+
+	log := d.log.WithValues("id", m.ID)
+	db := d.db
+
+	current := &Entity{
+		ID: m.ID,
+	}
+	result := db.First(current)
+
+	if result.RowsAffected == 0 {
+		log.V(logging.Debug).Info("Record not found; it will be created")
+	} else {
+		log.V(logging.Debug).Info("Record found", "id", current.ID)
+		m.ID = current.ID
+	}
+
+	log.V(logging.Debug).Info("Updating record")
+	if result := db.Save(m); result.Error != nil {
+		return errors.Wrapf(result.Error, "Failed to update Entity ID: %v", m.ID)
+	}
+
+	return nil
+}
+
+// ListEntities lists all the entities.
+func (d *Datastore) ListEntities() ([]*Entity, error) {
+	db := d.db
+	// TODO(jeremy): Should we introduce some form of pagination? See
+	// https://gorm.io/docs/scopes.html#pagination
+	entities := make([]*Entity, 0, 0)
+
+	if result := db.Find(&entities); result.Error != nil {
+		return nil, errors.Wrapf(result.Error, "Failed to find all entities")
+	}
+
+	return entities, nil
+}
+
+type EntityQuery struct {
+	Name         string
+	WikipediaURL string
+	MID          string
+}
+
+// FindEntities is a primitive form of entity linking.
+//
+// TODO(jeremy): How should we handle the case where we could potentially have multiple entries in the database
+// that would match?
+func (d *Datastore) FindEntity(q EntityQuery) ([]*Entity, error) {
+	db := d.db
+
+	entities := make([]*Entity, 0, 0)
+
+	if q.Name != "" {
+		db = db.Or("name = ?", q.Name)
+	}
+
+	if q.WikipediaURL != "" {
+		db = db.Or("wikipedia_url = ?", q.WikipediaURL)
+	}
+
+	if q.MID != "" {
+		db = db.Or("mid = ?", q.MID)
+	}
+
+	if result := db.Find(&entities); result.Error != nil {
+		return nil, errors.Wrapf(result.Error, "Failed to find all entitymentions")
+	}
+
+	return entities, nil
+}
+
+// UpdateEntityMention updates or creates the EntityMention
+//
+func (d *Datastore) UpdateEntityMention(m *EntityMention) error {
+	if m.DocID == "" {
+		return errors.New("DocID must be set")
+	}
+
+	// TODO(jeremy): Should we be using hooks https://gorm.io/docs/hooks.html to achieve this
+	expectedId := EntityMentionKey(*m)
+	if m.ID != "" && m.ID != expectedId {
+		return errors.Errorf("ID and EntityMention are inconsistent; ID should be empty or %v", expectedId)
+	}
+
+	m.ID = expectedId
+
+	log := d.log.WithValues("docId", m.DocID, "id", m.ID)
+	db := d.db
+
+	current := &EntityMention{
+		ID: m.ID,
+	}
+	result := db.First(current)
+
+	if result.RowsAffected == 0 {
+		log.V(logging.Debug).Info("Record not found; it will be created")
+	} else {
+		log.V(logging.Debug).Info("Record found", "id", current.ID)
+		m.ID = current.ID
+	}
+
+	log.V(logging.Debug).Info("Updating record")
+	if result := db.Save(m); result.Error != nil {
+		return errors.Wrapf(result.Error, "Failed to update EntityMention ID: %v", m.ID)
+	}
+
+	return nil
+}
+
+// ListEntityMentions lists all the entity mentions.
+// docId is optional if supplied list all the mentions for the provided doc.
+func (d *Datastore) ListEntityMentions(docId string) ([]*EntityMention, error) {
+	db := d.db
+	// TODO(jeremy): Should we introduce some form of pagination? See
+	// https://gorm.io/docs/scopes.html#pagination
+	links := make([]*EntityMention, 0, 0)
+
+	if docId != "" {
+		db = db.Where("doc_id = ? ", docId)
+	}
+
+	if result := db.Find(&links); result.Error != nil {
+		return nil, errors.Wrapf(result.Error, "Failed to find all entitymentions")
 	}
 
 	return links, nil

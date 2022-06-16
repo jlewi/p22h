@@ -376,3 +376,123 @@ func Test_doclinks(t *testing.T) {
 		})
 	}
 }
+
+func Test_FindEntities(t *testing.T) {
+
+	type testCase struct {
+		name     string
+		destId   string
+		entities []*Entity
+		query    EntityQuery
+		expected []*Entity
+	}
+
+	basicEntities := []*Entity{
+		{
+			Name:         "john",
+			WikipediaUrl: "http//wikipedia/john",
+			MID:          "5",
+		},
+		{
+			Name:         "karen",
+			WikipediaUrl: "http//wikipedia/karen",
+			MID:          "6",
+		},
+	}
+	cases := []testCase{
+		{
+			name:     "byName",
+			entities: basicEntities,
+			query: EntityQuery{
+				Name:         "john",
+				WikipediaURL: "",
+				MID:          "",
+			},
+			expected: []*Entity{
+				basicEntities[0],
+			},
+		},
+		{
+			name:     "byWikipedia",
+			entities: basicEntities,
+			query: EntityQuery{
+				Name:         "",
+				WikipediaURL: "http//wikipedia/karen",
+				MID:          "",
+			},
+			expected: []*Entity{
+				basicEntities[1],
+			},
+		},
+		{
+			name:     "byMID",
+			entities: basicEntities,
+			query: EntityQuery{
+				Name:         "",
+				WikipediaURL: "",
+				MID:          "6",
+			},
+			expected: []*Entity{
+				basicEntities[1],
+			},
+		},
+		{
+			name:     "all-keys",
+			entities: basicEntities,
+			query: EntityQuery{
+				Name:         "karen",
+				WikipediaURL: "http//wikipedia/karen",
+				MID:          "6",
+			},
+			expected: []*Entity{
+				basicEntities[1],
+			},
+		},
+	}
+
+	for _, c := range cases {
+		t.Run(c.name, func(t *testing.T) {
+			dir, err := ioutil.TempDir("", "testDatabase")
+			if err != nil {
+				t.Fatalf("Failed to create temporary directory; error %v", err)
+			}
+
+			t.Logf("Created temporary directory: %v", dir)
+
+			dbFile := path.Join(dir, "database.db")
+
+			log, _ := logging.InitLogger("debug", true)
+			db, err := New(dbFile, *log)
+
+			if err != nil {
+				t.Fatalf("Failed to create database; error %v", err)
+			}
+
+			// Preload the entities
+			for _, e := range c.entities {
+				// Make a copy of the doc because UpdateDocReference can modify it.
+				eCopy := *e
+				err = db.UpdateEntity(&eCopy)
+				if err != nil {
+					t.Fatalf("Failed to add row %+v; %+v", e, err)
+				}
+			}
+
+			entities, err := db.FindEntity(c.query)
+
+			if err != nil {
+				t.Errorf("Failed to read links")
+			}
+
+			// TODO(jeremy): Really need to sort the rows for comparison when there are multiple rows
+			opts := cmpopts.IgnoreFields(Entity{}, "ID", "CreatedAt", "DeletedAt", "UpdatedAt")
+			if d := cmp.Diff(c.expected, entities, opts); d != "" {
+				t.Errorf("Read entities didn't match; diff:\n%v", d)
+			}
+
+			if err := db.Close(); err != nil {
+				t.Errorf("Failed to close database; error %+v", err)
+			}
+		})
+	}
+}
