@@ -1,66 +1,47 @@
-# feed
+# Personal Knowledge Graph
 
-A flutter application to display a list of documents.
+An experimental project for testing some hypotheses about search and knowledge graphs.
 
-## Prerequisites
+# Hypotheses
 
-Install flutter on your machine.
+This project is motivated by two hypotheses
 
-## Running the flutter app in dev mode
+1. Many search queries can be better answered by identifying and indexing entities rather than relying on full text search
+1. A personal, individually managed  search/knowledge graph can be easier to adopt than a centrally managed solution
 
-```
-cd frontend
-flutter run
-```
+## Identifying and indexing entities
 
-## CLI
+I find that a lot of my queries of personal and company knowledge stores are of the form: `Find all notes/documents mentioning X?`, where X is an entity such as a person, product, company, or system. 
 
-There is a CLI program meant for testing/developing snippets of code. To run
-the CLI
+Most search solutions (e.g. Google Drive Search) are based on full text search. This leads to a frustrating experience. I waste a lot of time trying different forms of my query to account for all the different aliases.
 
-```
-dart run bin/cli.dart
-```
+My hypothesis is that a lot of this frustration can be addressed by using named entity recognition(NER) and named entity linking(NEL) to identify mentions of an entity with higher precision and recall then just relying on full text search.
 
-## Run the server locally
+## Personal Knowledge Graphs
 
-To run locally
+Today, most enterprise search engines (e.g. [Google Cloud Search](https://developers.google.com/cloud-search/docs/guides), [Elastic Workplace Search](https://www.elastic.co/workplace-search), [Glean](https://www.glean.com/), [Lucid Works](https://lucidworks.com/knowledge-management/)) appear to be selling to the enterprise not individuals. If your an employee frustrated with your search experience/knowledge management tooling you'd have to convince your CIO/CTO that this is a problem and they should invest in one of these solutions. Notably, these are not applications that a single individual can simply download and install. Some exceptions are [dala.ai](https://dala.ai/) and [CommandE](https://getcommande.com/).
 
-```
-make run
-```
+I hypothesize that an individual, personally managed solution can be easier to adopt by avoiding these barriers.
 
-This will build and run the server. The server will be serving the frontend at /ui/
+# Objectives
 
-When working on the front end you can start a separate copy of the frontend
-by run `flutter run` or running it in vscode in debug mode. Just set
-the URL of the backend to whatever port the backend is running on (should be 8080)
-by default. Right now this requires hacking the code.
+The objectives of this project is to try to validate the above hypotheses. Concretely,
 
-## Why use Flutter & Dart rather than Javascript/Typescript/ReactX
+1. Can NER & NEL be used to more effectively search Google Documents?
+1. Can we build solutions that can easily and cost effectively managed by an individual?
 
-I think the main selling point of Flutter is that you can write an app
-once and compile it to a webapp or native Android or IOS application.
+As a side goal, I'd like to learn more about frontend development and flutter.
 
-The main reason we chose Flutter & Dart is the hope that it is actually
-more natural for backend engineers to learn.
+# High Level Design
 
-Some thoughts (which may not prove to be true)
+The backend is a go application that taxes care of
 
-* Flutter doesn't expose developers to CSS or the HTML DOM
-  * Hopefully this simplifies how to control the UI
+* Indexing documents in Google Drive
+* Using [Cloud Natural Language API](https://cloud.google.com/natural-language) for entity recognition
 
-* Flutter does layout differently from html [reference](https://docs.flutter.dev/development/ui/layout/constraints)
-  * Not sure yet what to make of this
+The frontend is a flutter application providing a UI for the data.
 
-## Dart/Flutter cheat sheet
+# References
 
-To add dependencies
+[Twitter thread asking about enterprise search](https://twitter.com/jeremylewi/status/1478708975768006659)
 
-```
-dart pub add <dependency>
-```
-## References
-
-Flutter references
-[flutter online documentation](https://flutter.dev/docs)
