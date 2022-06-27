@@ -1,0 +1,4057 @@
+{
+  "entities": [
+    {
+      "name": "FL",
+      "type": 2,
+      "metadata": {
+        "mid": "/m/02xry",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Florida"
+      },
+      "salience": 0.3000869,
+      "mentions": [
+        {
+          "text": {
+            "content": "FL",
+            "begin_offset": 23
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "FL",
+            "begin_offset": 103
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "FL",
+            "begin_offset": 122
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "FL",
+            "begin_offset": 507
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "FL",
+            "begin_offset": 913
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "FL",
+            "begin_offset": 2490
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "FL",
+            "begin_offset": 2618
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "FL",
+            "begin_offset": 3263
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "FL",
+            "begin_offset": 3561
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "FL",
+            "begin_offset": 5058
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "owkin.com",
+      "type": 7,
+      "salience": 0.028865876,
+      "mentions": [
+        {
+          "text": {
+            "content": "owkin.com",
+            "begin_offset": 876
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "owkin.com",
+            "begin_offset": 4718
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Intellegens Company",
+      "type": 3,
+      "salience": 0.028324299,
+      "mentions": [
+        {
+          "text": {
+            "content": "Intellegens\nCompany",
+            "begin_offset": 410
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Federated MLOps Platform",
+      "type": 7,
+      "salience": 0.022632796,
+      "mentions": [
+        {
+          "text": {
+            "content": "Federated MLOps Platform",
+            "begin_offset": 558
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Looks",
+      "type": 7,
+      "salience": 0.018237226,
+      "mentions": [
+        {
+          "text": {
+            "content": "Looks",
+            "begin_offset": 953
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "ML",
+      "type": 7,
+      "salience": 0.016981544,
+      "mentions": [
+        {
+          "text": {
+            "content": "ML",
+            "begin_offset": 1049
+          },
+          "type": 2
+        },
+        {
+          "text": {
+            "content": "ML",
+            "begin_offset": 4764
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "treatments",
+      "type": 7,
+      "salience": 0.016774992,
+      "mentions": [
+        {
+          "text": {
+            "content": "treatments",
+            "begin_offset": 1069
+          },
+          "type": 2
+        },
+        {
+          "text": {
+            "content": "treatments",
+            "begin_offset": 4784
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "TFF",
+      "type": 3,
+      "salience": 0.014908285,
+      "mentions": [
+        {
+          "text": {
+            "content": "TFF",
+            "begin_offset": 2092
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "TFF",
+            "begin_offset": 2525
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "TFF",
+            "begin_offset": 3130
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "learning",
+      "type": 7,
+      "salience": 0.014428025,
+      "mentions": [
+        {
+          "text": {
+            "content": "learning",
+            "begin_offset": 45
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "data silos",
+      "type": 7,
+      "salience": 0.014428025,
+      "mentions": [
+        {
+          "text": {
+            "content": "data silos",
+            "begin_offset": 128
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Feed Forward Neural Networks",
+      "type": 7,
+      "salience": 0.01343805,
+      "mentions": [
+        {
+          "text": {
+            "content": "Feed Forward Neural Networks",
+            "begin_offset": 280
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Looks",
+      "type": 7,
+      "salience": 0.011124504,
+      "mentions": [
+        {
+          "text": {
+            "content": "Looks",
+            "begin_offset": 180
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "Looks",
+            "begin_offset": 4515
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "Looks",
+            "begin_offset": 4612
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "model types",
+      "type": 7,
+      "salience": 0.010773918,
+      "mentions": [
+        {
+          "text": {
+            "content": "model types",
+            "begin_offset": 267
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "assessment",
+      "type": 7,
+      "salience": 0.010773918,
+      "mentions": [
+        {
+          "text": {
+            "content": "assessment",
+            "begin_offset": 323
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "administrator",
+      "type": 1,
+      "salience": 0.010773918,
+      "mentions": [
+        {
+          "text": {
+            "content": "administrator",
+            "begin_offset": 232
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "tool",
+      "type": 7,
+      "salience": 0.010773918,
+      "mentions": [
+        {
+          "text": {
+            "content": "tool",
+            "begin_offset": 26
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "computation",
+      "type": 7,
+      "salience": 0.009305327,
+      "mentions": [
+        {
+          "text": {
+            "content": "computation",
+            "begin_offset": 732
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Docker",
+      "type": 3,
+      "metadata": {
+        "mid": "/m/0wkcjgj",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Docker_(software)"
+      },
+      "salience": 0.009054042,
+      "mentions": [
+        {
+          "text": {
+            "content": "Docker",
+            "begin_offset": 204
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "Docker",
+            "begin_offset": 5211
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "type": 6,
+      "salience": 0.008216747,
+      "mentions": [
+        {
+          "text": {
+            "content": "product",
+            "begin_offset": 510
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Integrate.AI",
+      "type": 1,
+      "salience": 0.007954822,
+      "mentions": [
+        {
+          "text": {
+            "content": "Integrate.AI"
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Edge",
+      "type": 7,
+      "salience": 0.007954822,
+      "mentions": [
+        {
+          "text": {
+            "content": "Edge",
+            "begin_offset": 113
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "enterprise use case",
+      "type": 7,
+      "salience": 0.007657714,
+      "mentions": [
+        {
+          "text": {
+            "content": "enterprise use case",
+            "begin_offset": 613
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "platform",
+      "type": 7,
+      "salience": 0.0072898716,
+      "mentions": [
+        {
+          "text": {
+            "content": "platform",
+            "begin_offset": 674
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "PyTorch",
+      "type": 7,
+      "metadata": {
+        "mid": "/g/11gd3905v1",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/PyTorch"
+      },
+      "salience": 0.006842647,
+      "mentions": [
+        {
+          "text": {
+            "content": "PyTorch",
+            "begin_offset": 2111
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "PyTorch",
+            "begin_offset": 4870
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "training",
+            "begin_offset": 4861
+          },
+          "type": 2
+        },
+        {
+          "text": {
+            "content": "PyTorch",
+            "begin_offset": 4987
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "PyTorch",
+            "begin_offset": 3139
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Announcement",
+      "type": 4,
+      "salience": 0.0068143676,
+      "mentions": [
+        {
+          "text": {
+            "content": "Announcement",
+            "begin_offset": 2997
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "control plane",
+      "type": 7,
+      "salience": 0.0066591175,
+      "mentions": [
+        {
+          "text": {
+            "content": "platform",
+            "begin_offset": 5012
+          },
+          "type": 2
+        },
+        {
+          "text": {
+            "content": "control plane",
+            "begin_offset": 5026
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "type": 6,
+      "salience": 0.006459081,
+      "mentions": [
+        {
+          "text": {
+            "content": "product",
+            "begin_offset": 375
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "information",
+      "type": 7,
+      "salience": 0.006459081,
+      "mentions": [
+        {
+          "text": {
+            "content": "information",
+            "begin_offset": 351
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "information",
+      "type": 7,
+      "salience": 0.006426981,
+      "mentions": [
+        {
+          "text": {
+            "content": "information",
+            "begin_offset": 528
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "information",
+      "type": 7,
+      "salience": 0.0064043025,
+      "mentions": [
+        {
+          "text": {
+            "content": "information",
+            "begin_offset": 642
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "type": 6,
+      "salience": 0.0064043025,
+      "mentions": [
+        {
+          "text": {
+            "content": "product",
+            "begin_offset": 666
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "API",
+      "type": 7,
+      "salience": 0.006395748,
+      "mentions": [
+        {
+          "text": {
+            "content": "API",
+            "begin_offset": 1554
+          },
+          "type": 2
+        },
+        {
+          "text": {
+            "content": "API",
+            "begin_offset": 1581
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "GLM",
+      "type": 3,
+      "salience": 0.006375069,
+      "mentions": [
+        {
+          "text": {
+            "content": "GLM",
+            "begin_offset": 310
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "substra",
+      "type": 7,
+      "salience": 0.005886867,
+      "mentions": [
+        {
+          "text": {
+            "content": "substra",
+            "begin_offset": 982
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Owkin",
+      "type": 7,
+      "salience": 0.0054170704,
+      "mentions": [
+        {
+          "text": {
+            "content": "Owkin",
+            "begin_offset": 1038
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "open source",
+            "begin_offset": 1026
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "server code",
+      "type": 7,
+      "salience": 0.005304843,
+      "mentions": [
+        {
+          "text": {
+            "content": "Code",
+            "begin_offset": 5754
+          },
+          "type": 2
+        },
+        {
+          "text": {
+            "content": "server code",
+            "begin_offset": 5799
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "AI",
+      "type": 7,
+      "salience": 0.0051500383,
+      "mentions": [
+        {
+          "text": {
+            "content": "AI",
+            "begin_offset": 444
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "materials",
+      "type": 7,
+      "salience": 0.0051500383,
+      "mentions": [
+        {
+          "text": {
+            "content": "materials",
+            "begin_offset": 451
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "chemicals",
+      "type": 7,
+      "salience": 0.0051500383,
+      "mentions": [
+        {
+          "text": {
+            "content": "chemicals",
+            "begin_offset": 462
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "company",
+      "type": 3,
+      "salience": 0.0050166855,
+      "mentions": [
+        {
+          "text": {
+            "content": "company",
+            "begin_offset": 4910
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "computation",
+      "type": 7,
+      "salience": 0.0048464104,
+      "mentions": [
+        {
+          "text": {
+            "content": "computation",
+            "begin_offset": 2585
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "computation",
+      "type": 7,
+      "salience": 0.0044337297,
+      "mentions": [
+        {
+          "text": {
+            "content": "computation",
+            "begin_offset": 1111
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "case",
+      "type": 7,
+      "salience": 0.004234946,
+      "mentions": [
+        {
+          "text": {
+            "content": "case",
+            "begin_offset": 3455
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "type": 7,
+      "salience": 0.0041700834,
+      "mentions": [
+        {
+          "text": {
+            "content": "data",
+            "begin_offset": 747
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "type": 7,
+      "salience": 0.0041700834,
+      "mentions": [
+        {
+          "text": {
+            "content": "data",
+            "begin_offset": 869
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "type": 7,
+      "salience": 0.0041700834,
+      "mentions": [
+        {
+          "text": {
+            "content": "data",
+            "begin_offset": 774
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "type": 7,
+      "salience": 0.0041528633,
+      "mentions": [
+        {
+          "text": {
+            "content": "data",
+            "begin_offset": 1144
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "paper",
+      "type": 7,
+      "salience": 0.00379281,
+      "mentions": [
+        {
+          "text": {
+            "content": "paper",
+            "begin_offset": 2371
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Heterogenous",
+      "type": 7,
+      "salience": 0.0033088094,
+      "mentions": [
+        {
+          "text": {
+            "content": "level",
+            "begin_offset": 1575
+          },
+          "type": 2
+        },
+        {
+          "text": {
+            "content": "Heterogenous",
+            "begin_offset": 1585
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "data encryption",
+      "type": 7,
+      "salience": 0.0032870164,
+      "mentions": [
+        {
+          "text": {
+            "content": "data encryption",
+            "begin_offset": 812
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Flare",
+      "type": 7,
+      "salience": 0.0031354337,
+      "mentions": [
+        {
+          "text": {
+            "content": "Flare",
+            "begin_offset": 3620
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "package",
+            "begin_offset": 3612
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "owners",
+      "type": 1,
+      "salience": 0.0031335978,
+      "mentions": [
+        {
+          "text": {
+            "content": "owners",
+            "begin_offset": 2754
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Devron",
+      "type": 1,
+      "salience": 0.003059864,
+      "mentions": [
+        {
+          "text": {
+            "content": "Devron",
+            "begin_offset": 335
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Ichnite",
+      "type": 7,
+      "metadata": {
+        "mid": "/m/0djsr8",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fossil_track"
+      },
+      "salience": 0.0030446374,
+      "mentions": [
+        {
+          "text": {
+            "content": "Ichnite",
+            "begin_offset": 490
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "3M",
+      "type": 3,
+      "metadata": {
+        "mid": "/m/0h1jr",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/3M"
+      },
+      "salience": 0.00303388,
+      "mentions": [
+        {
+          "text": {
+            "content": "3M",
+            "begin_offset": 697
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Apheris",
+      "type": 1,
+      "salience": 0.00303388,
+      "mentions": [
+        {
+          "text": {
+            "content": "Apheris",
+            "begin_offset": 550
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Tripleblind.ai",
+      "type": 1,
+      "metadata": {
+        "mid": "/m/0mkz",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      },
+      "salience": 0.0030255618,
+      "mentions": [
+        {
+          "text": {
+            "content": "Tripleblind.ai",
+            "begin_offset": 701
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "FedML.ai",
+            "begin_offset": 4888
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "computations",
+      "type": 7,
+      "salience": 0.0030023493,
+      "mentions": [
+        {
+          "text": {
+            "content": "computations",
+            "begin_offset": 2139
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "silo data",
+      "type": 7,
+      "salience": 0.0028096726,
+      "mentions": [
+        {
+          "text": {
+            "content": "silo data",
+            "begin_offset": 2686
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "type": 7,
+      "salience": 0.0028096726,
+      "mentions": [
+        {
+          "text": {
+            "content": "data",
+            "begin_offset": 2974
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "dataset",
+      "type": 7,
+      "salience": 0.0027829427,
+      "mentions": [
+        {
+          "text": {
+            "content": "dataset",
+            "begin_offset": 1966
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "OSS",
+      "type": 7,
+      "metadata": {
+        "mid": "/m/01pjyj",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Open-source_software"
+      },
+      "salience": 0.0027353684,
+      "mentions": [
+        {
+          "text": {
+            "content": "OSS",
+            "begin_offset": 4499
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "type": 7,
+      "salience": 0.0025757395,
+      "mentions": [
+        {
+          "text": {
+            "content": "data",
+            "begin_offset": 3050
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "part",
+      "type": 7,
+      "salience": 0.0025710834,
+      "mentions": [
+        {
+          "text": {
+            "content": "part",
+            "begin_offset": 1421
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "train",
+      "type": 7,
+      "salience": 0.0025710834,
+      "mentions": [
+        {
+          "text": {
+            "content": "train",
+            "begin_offset": 1501
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "platform",
+      "type": 7,
+      "salience": 0.0024279817,
+      "mentions": [
+        {
+          "text": {
+            "content": "platform",
+            "begin_offset": 916
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "computes",
+      "type": 7,
+      "salience": 0.002374398,
+      "mentions": [
+        {
+          "text": {
+            "content": "computes",
+            "begin_offset": 2927
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "computations",
+      "type": 7,
+      "salience": 0.0023543253,
+      "mentions": [
+        {
+          "text": {
+            "content": "computations",
+            "begin_offset": 1810
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "computations",
+      "type": 7,
+      "salience": 0.0023453557,
+      "mentions": [
+        {
+          "text": {
+            "content": "computations",
+            "begin_offset": 2202
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Owkin",
+      "type": 1,
+      "salience": 0.0023034331,
+      "mentions": [
+        {
+          "text": {
+            "content": "Owkin",
+            "begin_offset": 887
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Federated Learning NVIDIA Clara",
+      "type": 7,
+      "metadata": {
+        "mid": "/g/11hyd49kls",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Federated_learning"
+      },
+      "salience": 0.0022859822,
+      "mentions": [
+        {
+          "text": {
+            "content": "Federated Learning\nNVIDIA Clara",
+            "begin_offset": 1361
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "Federated Learning",
+            "begin_offset": 4120
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "data Network servers",
+      "type": 7,
+      "salience": 0.002250808,
+      "mentions": [
+        {
+          "text": {
+            "content": "data\nNetwork servers",
+            "begin_offset": 2840
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "domain servers",
+      "type": 7,
+      "salience": 0.002250808,
+      "mentions": [
+        {
+          "text": {
+            "content": "domain servers",
+            "begin_offset": 2789
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "patients",
+      "type": 1,
+      "salience": 0.0021997306,
+      "mentions": [
+        {
+          "text": {
+            "content": "patients",
+            "begin_offset": 1083
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "pipeline",
+      "type": 7,
+      "salience": 0.0021833815,
+      "mentions": [
+        {
+          "text": {
+            "content": "pipeline",
+            "begin_offset": 1474
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "components",
+      "type": 7,
+      "salience": 0.0021766755,
+      "mentions": [
+        {
+          "text": {
+            "content": "components",
+            "begin_offset": 3368
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "type": 7,
+      "salience": 0.0021715758,
+      "mentions": [
+        {
+          "text": {
+            "content": "data",
+            "begin_offset": 3971
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Fate",
+      "type": 7,
+      "salience": 0.0021302921,
+      "mentions": [
+        {
+          "text": {
+            "content": "Fate",
+            "begin_offset": 1394
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "company",
+      "type": 3,
+      "salience": 0.0020920164,
+      "mentions": [
+        {
+          "text": {
+            "content": "company",
+            "begin_offset": 4739
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "participant",
+      "type": 1,
+      "salience": 0.0020349894,
+      "mentions": [
+        {
+          "text": {
+            "content": "participant",
+            "begin_offset": 1643
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "participant",
+      "type": 1,
+      "salience": 0.0020349894,
+      "mentions": [
+        {
+          "text": {
+            "content": "participant",
+            "begin_offset": 1712
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "IBM",
+      "type": 3,
+      "metadata": {
+        "mid": "/m/03sc8",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/IBM"
+      },
+      "salience": 0.002034237,
+      "mentions": [
+        {
+          "text": {
+            "content": "IBM",
+            "begin_offset": 1357
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "IBM",
+            "begin_offset": 4116
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "PyGrid OpenFL TensorFlow",
+      "type": 7,
+      "salience": 0.0019721019,
+      "mentions": [
+        {
+          "text": {
+            "content": "PyGrid\nOpenFL\nTensorFlow",
+            "begin_offset": 1322
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "PyGrid",
+            "begin_offset": 2541
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "https://github.com/OpenMined/syft.js/ Last",
+      "type": 7,
+      "salience": 0.0019643446,
+      "mentions": [
+        {
+          "text": {
+            "content": "https://github.com/OpenMined/syft.js/\nLast",
+            "begin_offset": 2290
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "case",
+      "type": 7,
+      "salience": 0.0019476992,
+      "mentions": [
+        {
+          "text": {
+            "content": "case",
+            "begin_offset": 2700
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "client",
+      "type": 1,
+      "salience": 0.0019476992,
+      "mentions": [
+        {
+          "text": {
+            "content": "client",
+            "begin_offset": 2269
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "subscribers",
+      "type": 1,
+      "salience": 0.0019476992,
+      "mentions": [
+        {
+          "text": {
+            "content": "subscribers",
+            "begin_offset": 2941
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "type": 7,
+      "salience": 0.0019354098,
+      "mentions": [
+        {
+          "text": {
+            "content": "data",
+            "begin_offset": 4674
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "modes",
+      "type": 7,
+      "salience": 0.00192831,
+      "mentions": [
+        {
+          "text": {
+            "content": "modes",
+            "begin_offset": 3254
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "problem",
+      "type": 7,
+      "salience": 0.0019252171,
+      "mentions": [
+        {
+          "text": {
+            "content": "problem",
+            "begin_offset": 1178
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Open Source Frameworks",
+      "type": 5,
+      "salience": 0.001922428,
+      "mentions": [
+        {
+          "text": {
+            "content": "Open Source Frameworks",
+            "begin_offset": 1263
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Blog lists",
+      "type": 7,
+      "salience": 0.0019199364,
+      "mentions": [
+        {
+          "text": {
+            "content": "Blog lists",
+            "begin_offset": 1287
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "preprocess",
+      "type": 7,
+      "salience": 0.0019176854,
+      "mentions": [
+        {
+          "text": {
+            "content": "preprocess",
+            "begin_offset": 1489
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "device",
+      "type": 6,
+      "salience": 0.0018362998,
+      "mentions": [
+        {
+          "text": {
+            "content": "device",
+            "begin_offset": 1981
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "data silo use case",
+      "type": 7,
+      "salience": 0.0017854845,
+      "mentions": [
+        {
+          "text": {
+            "content": "data silo use case",
+            "begin_offset": 3668
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "model",
+      "type": 7,
+      "salience": 0.001748859,
+      "mentions": [
+        {
+          "text": {
+            "content": "model",
+            "begin_offset": 2476
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "users",
+      "type": 1,
+      "salience": 0.001748859,
+      "mentions": [
+        {
+          "text": {
+            "content": "users",
+            "begin_offset": 2883
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "type": 7,
+      "salience": 0.001748859,
+      "mentions": [
+        {
+          "text": {
+            "content": "mobile",
+            "begin_offset": 2624
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "part",
+      "type": 7,
+      "salience": 0.0017474701,
+      "mentions": [
+        {
+          "text": {
+            "content": "part",
+            "begin_offset": 3568
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "docker",
+      "type": 7,
+      "salience": 0.0016995324,
+      "mentions": [
+        {
+          "text": {
+            "content": "docker",
+            "begin_offset": 3229
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "devices",
+      "type": 6,
+      "salience": 0.0016995324,
+      "mentions": [
+        {
+          "text": {
+            "content": "devices",
+            "begin_offset": 3502
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "IDFA Founded",
+      "type": 1,
+      "salience": 0.0016987849,
+      "mentions": [
+        {
+          "text": {
+            "content": "IDFA \nFounded",
+            "begin_offset": 1199
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "data Data owners",
+      "type": 3,
+      "salience": 0.0016283118,
+      "mentions": [
+        {
+          "text": {
+            "content": "data\nData owners",
+            "begin_offset": 2768
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "announcement",
+      "type": 4,
+      "salience": 0.0016283118,
+      "mentions": [
+        {
+          "text": {
+            "content": "announcement",
+            "begin_offset": 2438
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "owners",
+      "type": 1,
+      "salience": 0.0016283118,
+      "mentions": [
+        {
+          "text": {
+            "content": "owners",
+            "begin_offset": 2960
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "algorithms",
+      "type": 7,
+      "salience": 0.0016145423,
+      "mentions": [
+        {
+          "text": {
+            "content": "algorithms",
+            "begin_offset": 1878
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "algorithms",
+      "type": 7,
+      "salience": 0.0016145423,
+      "mentions": [
+        {
+          "text": {
+            "content": "algorithms",
+            "begin_offset": 1613
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "type": 7,
+      "salience": 0.0016031944,
+      "mentions": [
+        {
+          "text": {
+            "content": "mobile",
+            "begin_offset": 3213
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "deployment docs",
+      "type": 7,
+      "salience": 0.0016031944,
+      "mentions": [
+        {
+          "text": {
+            "content": "deployment docs",
+            "begin_offset": 3688
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "support",
+      "type": 7,
+      "salience": 0.0015496559,
+      "mentions": [
+        {
+          "text": {
+            "content": "support",
+            "begin_offset": 2245
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "LinuxFoundation Docs",
+      "type": 7,
+      "salience": 0.0015193728,
+      "mentions": [
+        {
+          "text": {
+            "content": "LinuxFoundation\nDocs",
+            "begin_offset": 1429
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Aggregator Director workflow",
+      "type": 7,
+      "salience": 0.001492682,
+      "mentions": [
+        {
+          "text": {
+            "content": "Aggregator\nDirector workflow",
+            "begin_offset": 3384
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "edge",
+      "type": 2,
+      "salience": 0.001492682,
+      "mentions": [
+        {
+          "text": {
+            "content": "edge",
+            "begin_offset": 3470
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Aggregator Diagram Director",
+      "type": 1,
+      "salience": 0.001492682,
+      "mentions": [
+        {
+          "text": {
+            "content": "Aggregator\nDiagram\nDirector",
+            "begin_offset": 3289
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "workflows",
+      "type": 7,
+      "salience": 0.001492682,
+      "mentions": [
+        {
+          "text": {
+            "content": "workflows",
+            "begin_offset": 3266
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Director",
+      "type": 1,
+      "salience": 0.001492682,
+      "mentions": [
+        {
+          "text": {
+            "content": "Director",
+            "begin_offset": 3276
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "user guide",
+      "type": 7,
+      "salience": 0.0014850717,
+      "mentions": [
+        {
+          "text": {
+            "content": "user guide",
+            "begin_offset": 2649
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "data features",
+      "type": 7,
+      "salience": 0.0014725128,
+      "mentions": [
+        {
+          "text": {
+            "content": "data features",
+            "begin_offset": 1738
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "columns",
+      "type": 5,
+      "salience": 0.0014725128,
+      "mentions": [
+        {
+          "text": {
+            "content": "columns",
+            "begin_offset": 1683
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "columns",
+      "type": 5,
+      "salience": 0.0014725128,
+      "mentions": [
+        {
+          "text": {
+            "content": "columns",
+            "begin_offset": 1753
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "data features",
+      "type": 7,
+      "salience": 0.0014725128,
+      "mentions": [
+        {
+          "text": {
+            "content": "data features",
+            "begin_offset": 1668
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "stars",
+      "type": 7,
+      "salience": 0.0014515073,
+      "mentions": [
+        {
+          "text": {
+            "content": "stars",
+            "begin_offset": 2062
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "QR code",
+      "type": 7,
+      "salience": 0.0014513889,
+      "mentions": [
+        {
+          "text": {
+            "content": "QR code",
+            "begin_offset": 5142
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Terminology Domains",
+      "type": 7,
+      "salience": 0.0014489524,
+      "mentions": [
+        {
+          "text": {
+            "content": "Terminology\nDomains",
+            "begin_offset": 2717
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "PySft",
+      "type": 7,
+      "salience": 0.0014479894,
+      "mentions": [
+        {
+          "text": {
+            "content": "PySft",
+            "begin_offset": 1838
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "PySft",
+            "begin_offset": 2643
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Beehive",
+      "type": 7,
+      "salience": 0.0014104769,
+      "mentions": [
+        {
+          "text": {
+            "content": "Beehive",
+            "begin_offset": 5495
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "orchestration",
+            "begin_offset": 5481
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "FLARE",
+      "type": 7,
+      "salience": 0.0013613668,
+      "mentions": [
+        {
+          "text": {
+            "content": "FLARE",
+            "begin_offset": 3544
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "stars",
+      "type": 1,
+      "salience": 0.0013613668,
+      "mentions": [
+        {
+          "text": {
+            "content": "stars",
+            "begin_offset": 3093
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "client server architecture",
+      "type": 7,
+      "salience": 0.0013468794,
+      "mentions": [
+        {
+          "text": {
+            "content": "client server architecture",
+            "begin_offset": 3818
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "millions",
+      "type": 1,
+      "salience": 0.0013447088,
+      "mentions": [
+        {
+          "text": {
+            "content": "millions",
+            "begin_offset": 3490
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "course",
+      "type": 7,
+      "salience": 0.0013368258,
+      "mentions": [
+        {
+          "text": {
+            "content": "course",
+            "begin_offset": 2608
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "library",
+      "type": 2,
+      "salience": 0.0013076164,
+      "mentions": [
+        {
+          "text": {
+            "content": "library",
+            "begin_offset": 4849
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "data scientists",
+      "type": 1,
+      "salience": 0.0013043103,
+      "mentions": [
+        {
+          "text": {
+            "content": "data scientists",
+            "begin_offset": 2890
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "gate",
+      "type": 7,
+      "salience": 0.0013043103,
+      "mentions": [
+        {
+          "text": {
+            "content": "gate",
+            "begin_offset": 2819
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "example",
+      "type": 7,
+      "salience": 0.0013043103,
+      "mentions": [
+        {
+          "text": {
+            "content": "example",
+            "begin_offset": 2988
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "bridge",
+      "type": 2,
+      "salience": 0.0013043103,
+      "mentions": [
+        {
+          "text": {
+            "content": "bridge",
+            "begin_offset": 2868
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "server",
+      "type": 7,
+      "salience": 0.0013026414,
+      "mentions": [
+        {
+          "text": {
+            "content": "server",
+            "begin_offset": 5470
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "simulation",
+      "type": 7,
+      "salience": 0.0012918946,
+      "mentions": [
+        {
+          "text": {
+            "content": "simulation",
+            "begin_offset": 1929
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "thread",
+      "type": 7,
+      "salience": 0.0012883501,
+      "mentions": [
+        {
+          "text": {
+            "content": "thread",
+            "begin_offset": 2220
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "authenticity",
+      "type": 7,
+      "salience": 0.0012045273,
+      "mentions": [
+        {
+          "text": {
+            "content": "authenticity",
+            "begin_offset": 4658
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "models",
+      "type": 6,
+      "salience": 0.0012038039,
+      "mentions": [
+        {
+          "text": {
+            "content": "models",
+            "begin_offset": 4878
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "browser",
+      "type": 7,
+      "salience": 0.0011956557,
+      "mentions": [
+        {
+          "text": {
+            "content": "browser",
+            "begin_offset": 3202
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "idea",
+      "type": 7,
+      "salience": 0.0011956557,
+      "mentions": [
+        {
+          "text": {
+            "content": "idea",
+            "begin_offset": 3164
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "slack",
+      "type": 7,
+      "salience": 0.0011956557,
+      "mentions": [
+        {
+          "text": {
+            "content": "slack",
+            "begin_offset": 3023
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "pivot",
+      "type": 7,
+      "salience": 0.0011956557,
+      "mentions": [
+        {
+          "text": {
+            "content": "pivot",
+            "begin_offset": 3041
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "connectivity",
+      "type": 7,
+      "salience": 0.0011956557,
+      "mentions": [
+        {
+          "text": {
+            "content": "connectivity",
+            "begin_offset": 3524
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "solution",
+      "type": 7,
+      "salience": 0.0011956557,
+      "mentions": [
+        {
+          "text": {
+            "content": "solution",
+            "begin_offset": 3655
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "code",
+      "type": 7,
+      "salience": 0.0011486578,
+      "mentions": [
+        {
+          "text": {
+            "content": "code",
+            "begin_offset": 5621
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "code",
+      "type": 7,
+      "salience": 0.0011486578,
+      "mentions": [
+        {
+          "text": {
+            "content": "code",
+            "begin_offset": 5679
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Enveil",
+      "type": 1,
+      "salience": 0.0011394562,
+      "mentions": [
+        {
+          "text": {
+            "content": "Enveil",
+            "begin_offset": 1093
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Apple",
+      "type": 3,
+      "metadata": {
+        "mid": "/m/0k8z",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Apple_Inc."
+      },
+      "salience": 0.0011375843,
+      "mentions": [
+        {
+          "text": {
+            "content": "Apple",
+            "begin_offset": 1189
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Swarmin",
+      "type": 3,
+      "salience": 0.0011375843,
+      "mentions": [
+        {
+          "text": {
+            "content": "Swarmin",
+            "begin_offset": 1150
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Fate Substra PySyft",
+      "type": 7,
+      "salience": 0.0011344631,
+      "mentions": [
+        {
+          "text": {
+            "content": "Fate\nSubstra\nPySyft",
+            "begin_offset": 1300
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "WeBank Now",
+      "type": 3,
+      "salience": 0.0011331326,
+      "mentions": [
+        {
+          "text": {
+            "content": "WeBank\nNow",
+            "begin_offset": 1410
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "development",
+      "type": 7,
+      "salience": 0.0011214842,
+      "mentions": [
+        {
+          "text": {
+            "content": "development",
+            "begin_offset": 4503
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "source",
+      "type": 7,
+      "salience": 0.0011214842,
+      "mentions": [
+        {
+          "text": {
+            "content": "source",
+            "begin_offset": 4483
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "announcement",
+      "type": 4,
+      "salience": 0.001120169,
+      "mentions": [
+        {
+          "text": {
+            "content": "announcement",
+            "begin_offset": 4962
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "docker container",
+      "type": 6,
+      "salience": 0.001119556,
+      "mentions": [
+        {
+          "text": {
+            "content": "docker container",
+            "begin_offset": 5102
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "OpenMined",
+      "type": 3,
+      "salience": 0.0010839603,
+      "mentions": [
+        {
+          "text": {
+            "content": "OpenMined",
+            "begin_offset": 1991
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "server",
+      "type": 7,
+      "salience": 0.0010829702,
+      "mentions": [
+        {
+          "text": {
+            "content": "server",
+            "begin_offset": 5302
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "server",
+      "type": 7,
+      "salience": 0.0010829702,
+      "mentions": [
+        {
+          "text": {
+            "content": "server",
+            "begin_offset": 5352
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "server",
+      "type": 7,
+      "salience": 0.0010829702,
+      "mentions": [
+        {
+          "text": {
+            "content": "server",
+            "begin_offset": 5249
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "python server",
+      "type": 7,
+      "salience": 0.0010824029,
+      "mentions": [
+        {
+          "text": {
+            "content": "python server",
+            "begin_offset": 5835
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "PySft https://github.com/OpenMined/PySyft",
+      "type": 7,
+      "salience": 0.0010479953,
+      "mentions": [
+        {
+          "text": {
+            "content": "PySft\nhttps://github.com/OpenMined/PySyft",
+            "begin_offset": 2001
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "TFF",
+      "type": 4,
+      "salience": 0.0010246076,
+      "mentions": [
+        {
+          "text": {
+            "content": "TFF",
+            "begin_offset": 1831
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "patients",
+      "type": 1,
+      "salience": 0.0010228114,
+      "mentions": [
+        {
+          "text": {
+            "content": "patients",
+            "begin_offset": 4798
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "paper",
+      "type": 7,
+      "salience": 0.0010228114,
+      "mentions": [
+        {
+          "text": {
+            "content": "paper",
+            "begin_offset": 4680
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "UserGuide",
+      "type": 1,
+      "salience": 0.0010207021,
+      "mentions": [
+        {
+          "text": {
+            "content": "UserGuide",
+            "begin_offset": 2153
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "code",
+      "type": 7,
+      "salience": 0.0010155848,
+      "mentions": [
+        {
+          "text": {
+            "content": "code",
+            "begin_offset": 5598
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "code",
+      "type": 7,
+      "salience": 0.0010155848,
+      "mentions": [
+        {
+          "text": {
+            "content": "code",
+            "begin_offset": 5370
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Clara User Guide",
+      "type": 7,
+      "salience": 0.0010096232,
+      "mentions": [
+        {
+          "text": {
+            "content": "Clara User Guide",
+            "begin_offset": 4098
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "edge computing",
+            "begin_offset": 4082
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "I.e.",
+      "type": 7,
+      "salience": 0.0010089128,
+      "mentions": [
+        {
+          "text": {
+            "content": "I.e.",
+            "begin_offset": 4320
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "Client server architecture",
+            "begin_offset": 4292
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "FL OpenFL",
+      "type": 2,
+      "salience": 0.0010041945,
+      "mentions": [
+        {
+          "text": {
+            "content": "FL\nOpenFL",
+            "begin_offset": 3063
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "custom code",
+      "type": 7,
+      "salience": 0.0009549441,
+      "mentions": [
+        {
+          "text": {
+            "content": "custom code",
+            "begin_offset": 5174
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "TensorFlow",
+      "type": 3,
+      "metadata": {
+        "mid": "/g/11bwp1s2k3",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/TensorFlow"
+      },
+      "salience": 0.00095294253,
+      "mentions": [
+        {
+          "text": {
+            "content": "TensorFlow",
+            "begin_offset": 1890
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "TensorFlow",
+            "begin_offset": 3150
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "development",
+      "type": 7,
+      "salience": 0.0009439032,
+      "mentions": [
+        {
+          "text": {
+            "content": "development",
+            "begin_offset": 4448
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "client",
+      "type": 1,
+      "salience": 0.0009370734,
+      "mentions": [
+        {
+          "text": {
+            "content": "client",
+            "begin_offset": 5291
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "client",
+      "type": 7,
+      "salience": 0.0009370734,
+      "mentions": [
+        {
+          "text": {
+            "content": "client",
+            "begin_offset": 5363
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "client",
+      "type": 1,
+      "salience": 0.0009370734,
+      "mentions": [
+        {
+          "text": {
+            "content": "client",
+            "begin_offset": 5238
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "cross-silo use case",
+      "type": 7,
+      "salience": 0.0009365824,
+      "mentions": [
+        {
+          "text": {
+            "content": "cross-silo use case",
+            "begin_offset": 5767
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "access",
+      "type": 7,
+      "salience": 0.00093540875,
+      "mentions": [
+        {
+          "text": {
+            "content": "access",
+            "begin_offset": 2824
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "docker container",
+      "type": 6,
+      "salience": 0.0009081064,
+      "mentions": [
+        {
+          "text": {
+            "content": "docker container",
+            "begin_offset": 5323
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "blockchain",
+      "type": 7,
+      "salience": 0.0008982963,
+      "mentions": [
+        {
+          "text": {
+            "content": "blockchain",
+            "begin_offset": 4601
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "ledger",
+      "type": 7,
+      "salience": 0.0008982963,
+      "mentions": [
+        {
+          "text": {
+            "content": "ledger",
+            "begin_offset": 4627
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "traceability",
+      "type": 7,
+      "salience": 0.0008982963,
+      "mentions": [
+        {
+          "text": {
+            "content": "traceability",
+            "begin_offset": 4641
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "hyperledger fabric",
+      "type": 7,
+      "salience": 0.0008982963,
+      "mentions": [
+        {
+          "text": {
+            "content": "hyperledger fabric",
+            "begin_offset": 4545
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "project",
+      "type": 7,
+      "salience": 0.00089724263,
+      "mentions": [
+        {
+          "text": {
+            "content": "project",
+            "begin_offset": 4944
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "experiments Device Agent",
+      "type": 3,
+      "salience": 0.00089675165,
+      "mentions": [
+        {
+          "text": {
+            "content": "experiments\nDevice Agent",
+            "begin_offset": 5061
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "use",
+      "type": 7,
+      "salience": 0.00089194917,
+      "mentions": [
+        {
+          "text": {
+            "content": "use",
+            "begin_offset": 5256
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Looks",
+      "type": 7,
+      "salience": 0.00089194917,
+      "mentions": [
+        {
+          "text": {
+            "content": "Looks",
+            "begin_offset": 5280
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "device",
+      "type": 6,
+      "salience": 0.00089194917,
+      "mentions": [
+        {
+          "text": {
+            "content": "device",
+            "begin_offset": 5433
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "OpenMined",
+      "type": 7,
+      "salience": 0.000887852,
+      "mentions": [
+        {
+          "text": {
+            "content": "OpenMined",
+            "begin_offset": 3116
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "NVIDIA Clara",
+      "type": 1,
+      "salience": 0.0008819451,
+      "mentions": [
+        {
+          "text": {
+            "content": "NVIDIA Clara",
+            "begin_offset": 3576
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Intel",
+      "type": 3,
+      "metadata": {
+        "mid": "/m/03s7h",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Intel"
+      },
+      "salience": 0.0008819451,
+      "mentions": [
+        {
+          "text": {
+            "content": "Intel",
+            "begin_offset": 3078
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Homogenous",
+      "type": 7,
+      "salience": 0.00087002537,
+      "mentions": [
+        {
+          "text": {
+            "content": "Homogenous",
+            "begin_offset": 1602
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Python Pipeline",
+      "type": 7,
+      "salience": 0.00087002537,
+      "mentions": [
+        {
+          "text": {
+            "content": "Python\nPipeline",
+            "begin_offset": 1522
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Homogeneous",
+      "type": 7,
+      "salience": 0.00087002537,
+      "mentions": [
+        {
+          "text": {
+            "content": "Homogeneous",
+            "begin_offset": 1624
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "learning",
+      "type": 7,
+      "salience": 0.00084137416,
+      "mentions": [
+        {
+          "text": {
+            "content": "learning",
+            "begin_offset": 5718
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "NVIDIA",
+      "type": 3,
+      "metadata": {
+        "mid": "/m/09rh_",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nvidia"
+      },
+      "salience": 0.0008364055,
+      "mentions": [
+        {
+          "text": {
+            "content": "NVIDIA",
+            "begin_offset": 3537
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "NVIDIA",
+            "begin_offset": 4058
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "network",
+      "type": 7,
+      "salience": 0.00078336016,
+      "mentions": [
+        {
+          "text": {
+            "content": "network",
+            "begin_offset": 5745
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "development",
+      "type": 7,
+      "salience": 0.00078336016,
+      "mentions": [
+        {
+          "text": {
+            "content": "development",
+            "begin_offset": 5585
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Google",
+      "type": 3,
+      "metadata": {
+        "mid": "/m/045c7b",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google"
+      },
+      "salience": 0.00077062345,
+      "mentions": [
+        {
+          "text": {
+            "content": "Google",
+            "begin_offset": 2364
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "workflow",
+      "type": 7,
+      "salience": 0.00076430256,
+      "mentions": [
+        {
+          "text": {
+            "content": "workflow",
+            "begin_offset": 5218
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "library",
+      "type": 7,
+      "salience": 0.00075050147,
+      "mentions": [
+        {
+          "text": {
+            "content": "library",
+            "begin_offset": 5701
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "graphs",
+      "type": 7,
+      "salience": 0.000743103,
+      "mentions": [
+        {
+          "text": {
+            "content": "graphs",
+            "begin_offset": 1800
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Facebook",
+      "type": 7,
+      "metadata": {
+        "mid": "/m/02y1vz",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Facebook"
+      },
+      "salience": 0.0006379979,
+      "mentions": [
+        {
+          "text": {
+            "content": "Facebook",
+            "begin_offset": 4809
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "MQTT",
+      "type": 7,
+      "salience": 0.0006274464,
+      "mentions": [
+        {
+          "text": {
+            "content": "MQTT",
+            "begin_offset": 5260
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "folder",
+      "type": 7,
+      "salience": 0.0006274464,
+      "mentions": [
+        {
+          "text": {
+            "content": "folder",
+            "begin_offset": 5556
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "data silo",
+      "type": 7,
+      "salience": 0.00062072795,
+      "mentions": [
+        {
+          "text": {
+            "content": "data silo",
+            "begin_offset": 3939
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "path",
+      "type": 7,
+      "salience": 0.000612181,
+      "mentions": [
+        {
+          "text": {
+            "content": "path",
+            "begin_offset": 5421
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "opacus.ai Opacus.ai",
+      "type": 1,
+      "salience": 0.00060391607,
+      "mentions": [
+        {
+          "text": {
+            "content": "opacus.ai\nOpacus.ai",
+            "begin_offset": 4819
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "FedML MLOps",
+      "type": 7,
+      "salience": 0.00060323987,
+      "mentions": [
+        {
+          "text": {
+            "content": "FedML MLOps",
+            "begin_offset": 5000
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "use case",
+      "type": 7,
+      "salience": 0.0005886478,
+      "mentions": [
+        {
+          "text": {
+            "content": "use case",
+            "begin_offset": 4221
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Android",
+      "type": 6,
+      "metadata": {
+        "mid": "/m/02wxtgw",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Android_(operating_system)"
+      },
+      "salience": 0.00056570466,
+      "mentions": [
+        {
+          "text": {
+            "content": "Android",
+            "begin_offset": 5123
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "Android",
+            "begin_offset": 5548
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "Android",
+            "begin_offset": 5613
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "platform",
+      "type": 7,
+      "salience": 0.00056069274,
+      "mentions": [
+        {
+          "text": {
+            "content": "platform",
+            "begin_offset": 4069
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "devices",
+      "type": 6,
+      "salience": 0.0005599252,
+      "mentions": [
+        {
+          "text": {
+            "content": "devices",
+            "begin_offset": 4354
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "authors",
+      "type": 1,
+      "salience": 0.00053438,
+      "mentions": [
+        {
+          "text": {
+            "content": "authors",
+            "begin_offset": 4702
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "MacOs",
+      "type": 6,
+      "metadata": {
+        "mid": "/m/055yr",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/MacOS"
+      },
+      "salience": 0.00052979216,
+      "mentions": [
+        {
+          "text": {
+            "content": "MacOs",
+            "begin_offset": 5090
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "authentication",
+      "type": 7,
+      "salience": 0.0005285245,
+      "mentions": [
+        {
+          "text": {
+            "content": "authentication",
+            "begin_offset": 4235
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "authorization",
+      "type": 7,
+      "salience": 0.0005285245,
+      "mentions": [
+        {
+          "text": {
+            "content": "authorization",
+            "begin_offset": 4254
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "docs",
+      "type": 7,
+      "salience": 0.0005285245,
+      "mentions": [
+        {
+          "text": {
+            "content": "docs",
+            "begin_offset": 4166
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "training experiment",
+      "type": 7,
+      "salience": 0.00052706647,
+      "mentions": [
+        {
+          "text": {
+            "content": "training experiment",
+            "begin_offset": 3783
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "SmartPhones Docs",
+      "type": 7,
+      "salience": 0.00049707136,
+      "mentions": [
+        {
+          "text": {
+            "content": "SmartPhones\nDocs",
+            "begin_offset": 5510
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "privacy preserving algorithms",
+      "type": 7,
+      "salience": 0.0004924244,
+      "mentions": [
+        {
+          "text": {
+            "content": "privacy preserving algorithms",
+            "begin_offset": 3868
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Java",
+      "type": 7,
+      "metadata": {
+        "mid": "/m/07sbkfb",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Java_(programming_language)"
+      },
+      "salience": 0.0004767541,
+      "mentions": [
+        {
+          "text": {
+            "content": "Java",
+            "begin_offset": 5674
+          },
+          "type": 1
+        },
+        {
+          "text": {
+            "content": "Java",
+            "begin_offset": 5696
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "IOS",
+      "type": 6,
+      "metadata": {
+        "mid": "/m/03wbl14",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/IOS"
+      },
+      "salience": 0.00047420675,
+      "mentions": [
+        {
+          "text": {
+            "content": "IOS",
+            "begin_offset": 5572
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Python",
+      "type": 3,
+      "metadata": {
+        "mid": "/m/05z1_",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Python_(programming_language)"
+      },
+      "salience": 0.0004627933,
+      "mentions": [
+        {
+          "text": {
+            "content": "Python",
+            "begin_offset": 5204
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "millions",
+      "type": 1,
+      "salience": 0.0004484745,
+      "mentions": [
+        {
+          "text": {
+            "content": "millions",
+            "begin_offset": 4342
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "fact",
+      "type": 7,
+      "salience": 0.00039440737,
+      "mentions": [
+        {
+          "text": {
+            "content": "fact",
+            "begin_offset": 3924
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "weights",
+      "type": 7,
+      "salience": 0.00039440737,
+      "mentions": [
+        {
+          "text": {
+            "content": "weights",
+            "begin_offset": 4006
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "amount",
+      "type": 7,
+      "salience": 0.00039440737,
+      "mentions": [
+        {
+          "text": {
+            "content": "amount",
+            "begin_offset": 3961
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "training setup",
+      "type": 7,
+      "salience": 0.0003941298,
+      "mentions": [
+        {
+          "text": {
+            "content": "training setup",
+            "begin_offset": 4276
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "privacy preserving methods",
+      "type": 7,
+      "salience": 0.00039386743,
+      "mentions": [
+        {
+          "text": {
+            "content": "privacy preserving methods",
+            "begin_offset": 4391
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "any",
+      "type": 7,
+      "salience": 0.00039386743,
+      "mentions": [
+        {
+          "text": {
+            "content": "any",
+            "begin_offset": 4380
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Data management",
+      "type": 7,
+      "salience": 0.0003604839,
+      "mentions": [
+        {
+          "text": {
+            "content": "Data management",
+            "begin_offset": 5376
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "Substra",
+      "type": 1,
+      "salience": 0.00034729953,
+      "mentions": [
+        {
+          "text": {
+            "content": "Substra",
+            "begin_offset": 4421
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "EGX",
+      "type": 3,
+      "salience": 0.00023299357,
+      "mentions": [
+        {
+          "text": {
+            "content": "EGX",
+            "begin_offset": 4065
+          },
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "setting",
+      "type": 7,
+      "salience": 0.00022658837,
+      "mentions": [
+        {
+          "text": {
+            "content": "setting",
+            "begin_offset": 3760
+          },
+          "type": 2
+        }
+      ]
+    },
+    {
+      "name": "2017",
+      "type": 11,
+      "metadata": {
+        "year": "2017"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "2017",
+            "begin_offset": 81
+          }
+        }
+      ]
+    },
+    {
+      "name": "2020",
+      "type": 11,
+      "metadata": {
+        "year": "2020"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "2020",
+            "begin_offset": 391
+          }
+        }
+      ]
+    },
+    {
+      "name": "2019",
+      "type": 11,
+      "metadata": {
+        "year": "2019"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "2019",
+            "begin_offset": 691
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jan 2021",
+      "type": 11,
+      "metadata": {
+        "month": "1",
+        "year": "2021"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "Jan 2021",
+            "begin_offset": 2341
+          }
+        }
+      ]
+    },
+    {
+      "name": "2019",
+      "type": 11,
+      "metadata": {
+        "year": "2019"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "2019",
+            "begin_offset": 2382
+          }
+        }
+      ]
+    },
+    {
+      "name": "2020",
+      "type": 11,
+      "metadata": {
+        "year": "2020"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "2020",
+            "begin_offset": 2451
+          }
+        }
+      ]
+    },
+    {
+      "name": "2021",
+      "type": 11,
+      "metadata": {
+        "year": "2021"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "2021",
+            "begin_offset": 3015
+          }
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "type": 12,
+      "metadata": {
+        "value": "2"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "2",
+            "begin_offset": 5643
+          }
+        }
+      ]
+    },
+    {
+      "name": "323",
+      "type": 12,
+      "metadata": {
+        "value": "323"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "323",
+            "begin_offset": 3100
+          }
+        }
+      ]
+    },
+    {
+      "name": "2019",
+      "type": 12,
+      "metadata": {
+        "value": "2019"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "2019",
+            "begin_offset": 2382
+          }
+        }
+      ]
+    },
+    {
+      "name": "1902.01046",
+      "type": 12,
+      "metadata": {
+        "value": "1902.010460"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "1902.01046",
+            "begin_offset": 2410
+          }
+        }
+      ]
+    },
+    {
+      "name": "2017",
+      "type": 12,
+      "metadata": {
+        "value": "2017"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "2017",
+            "begin_offset": 81
+          }
+        }
+      ]
+    },
+    {
+      "name": "2020",
+      "type": 12,
+      "metadata": {
+        "value": "2020"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "2020",
+            "begin_offset": 391
+          }
+        }
+      ]
+    },
+    {
+      "name": "04/22",
+      "type": 12,
+      "metadata": {
+        "value": "0.181818"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "04/22",
+            "begin_offset": 4955
+          }
+        }
+      ]
+    },
+    {
+      "name": "2021",
+      "type": 12,
+      "metadata": {
+        "value": "2021"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "2021",
+            "begin_offset": 2345
+          }
+        }
+      ]
+    },
+    {
+      "name": "2021",
+      "type": 12,
+      "metadata": {
+        "value": "2021"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "2021",
+            "begin_offset": 3015
+          }
+        }
+      ]
+    },
+    {
+      "name": "Two",
+      "type": 12,
+      "metadata": {
+        "value": "2"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "Two",
+            "begin_offset": 3250
+          }
+        }
+      ]
+    },
+    {
+      "name": "3M",
+      "type": 12,
+      "metadata": {
+        "value": "3000000.000000"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "3M",
+            "begin_offset": 697
+          }
+        }
+      ]
+    },
+    {
+      "name": "30 M",
+      "type": 12,
+      "metadata": {
+        "value": "30000000.000000"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "30 M",
+            "begin_offset": 397
+          }
+        }
+      ]
+    },
+    {
+      "name": "7",
+      "type": 12,
+      "metadata": {
+        "value": "7"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "7",
+            "begin_offset": 1298
+          }
+        }
+      ]
+    },
+    {
+      "name": "50 million",
+      "type": 12,
+      "metadata": {
+        "value": "50000000.000000"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "50 million",
+            "begin_offset": 62
+          }
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "type": 12,
+      "metadata": {
+        "value": "2"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "2",
+            "begin_offset": 256
+          }
+        }
+      ]
+    },
+    {
+      "name": "2019",
+      "type": 12,
+      "metadata": {
+        "value": "2019"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "2019",
+            "begin_offset": 691
+          }
+        }
+      ]
+    },
+    {
+      "name": "2020",
+      "type": 12,
+      "metadata": {
+        "value": "2020"
+      },
+      "mentions": [
+        {
+          "text": {
+            "content": "2020",
+            "begin_offset": 2451
+          }
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

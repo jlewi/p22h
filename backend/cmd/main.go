@@ -34,6 +34,8 @@ import (
 	"google.golang.org/api/docs/v1"
 	"google.golang.org/api/drive/v3"
 	"google.golang.org/api/option"
+	languagepb "google.golang.org/genproto/googleapis/cloud/language/v1"
+	"io/ioutil"
 	"net"
 	"os"
 	"os/user"
@@ -186,7 +188,7 @@ func newFetchDocCmd() *cobra.Command {
 		Short: "Get a document from google drive.",
 		Run: func(cmd *cobra.Command, args []string) {
 			err := func() error {
-				if format != "json" {
+				if format != "json" && format != "text" {
 					return errors.Errorf("Invalid value --format=%v; only json is allowed", format)
 				}
 
@@ -222,11 +224,23 @@ func newFetchDocCmd() *cobra.Command {
 					defer writer.Close()
 				}
 
-				b, err := json.MarshalIndent(d, "", "  ")
-				if err != nil {
-					return errors.Wrapf(err, "failed to marshal google doc")
+				switch format {
+				case "json":
+					b, err := json.MarshalIndent(d, "", "  ")
+					if err != nil {
+						return errors.Wrapf(err, "failed to marshal google doc")
+					}
+					writer.Write(b)
+				case "text":
+					txt, err := gdocs.ReadText(d)
+					if err != nil {
+						return errors.Wrapf(err, "Failed to get text from document")
+					}
+					writer.Write([]byte(txt))
+				default:
+					return errors.Errorf("Unrecognized format %v", format)
 				}
-				writer.Write(b)
+
 				return nil
 			}()
 
@@ -242,6 +256,73 @@ func newFetchDocCmd() *cobra.Command {
 	cmd.Flags().StringVarP(&output, "output", "o", "", "Optional the file to write to. If not supplied will write to stdout")
 
 	cmd.MarkFlagRequired("doc")
+	return cmd
+}
+
+func newGetEntitiesCmd() *cobra.Command {
+	var input string
+	var output string
+	cmd := &cobra.Command{
+		Use:   "getentities",
+		Short: "Get entities for the supplied text.",
+		Run: func(cmd *cobra.Command, args []string) {
+			err := func() error {
+				inBytes, err := ioutil.ReadFile(input)
+				if err != nil {
+					return errors.Wrapf(err, "Failed to read file: %v", input)
+				}
+
+				ctx := context.Background()
+				client, err := language.NewClient(ctx)
+
+				if err != nil {
+					return errors.Wrapf(err, "failed to create Google Cloud Language Client; error %v")
+				}
+
+				resp, err := client.AnalyzeEntities(ctx, &languagepb.AnalyzeEntitiesRequest{
+					Document: &languagepb.Document{
+						Source: &languagepb.Document_Content{
+							Content: string(inBytes),
+						},
+						Type: languagepb.Document_PLAIN_TEXT,
+					},
+					EncodingType: languagepb.EncodingType_UTF8,
+				})
+
+				if err != nil {
+					return errors.Wrapf(err, "Failed to call NLP API.")
+				}
+
+				writer := os.Stdout
+
+				if output != "" {
+					writer, err = os.Create(output)
+					if err != nil {
+						return errors.Wrapf(err, "Could not create file: %v", output)
+					}
+					defer writer.Close()
+				}
+
+				b, err := json.MarshalIndent(resp, "", "  ")
+				if err != nil {
+					return errors.Wrapf(err, "failed to marshal google doc")
+				}
+				writer.Write(b)
+
+				return nil
+			}()
+
+			if err != nil {
+				log.Error(err, "Failed to connect to Google Drive")
+			}
+		},
+	}
+
+	cmd.Flags().StringVarP(&gcpOpts.credentialsFile, "credentials-file", "", "", "JSON File containing OAuth2Client credentials as downloaded from APIConsole. Can be a GCS file.")
+	cmd.Flags().StringVarP(&input, "input", "i", "", "The file to read the text to analyze from.")
+	cmd.Flags().StringVarP(&output, "output", "o", "", "Optional the file to write to. If not supplied will write to stdout")
+
+	cmd.MarkFlagRequired("input")
 	return cmd
 }
 
@@ -343,7 +424,7 @@ func init() {
 	rootCmd.AddCommand(searchCmd)
 	rootCmd.AddCommand(newFetchDocCmd())
 	rootCmd.AddCommand(newIndexCmd())
-
+	rootCmd.AddCommand(newGetEntitiesCmd())
 	rootCmd.PersistentFlags().StringVarP(&gOpts.level, "level", "", "info", "The logging level.")
 	rootCmd.PersistentFlags().BoolVarP(&gOpts.debug, "debug", "", false, "Enable debug mode for logs.")
 
