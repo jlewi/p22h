@@ -1,0 +1,645 @@
+[
+  {
+    "name": "FL",
+    "type": 2,
+    "metadata": {
+      "mid": "/m/02xry",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Florida"
+    },
+    "salience": 0.3000869,
+    "mentions": [
+      {
+        "text": {
+          "content": "FL",
+          "begin_offset": 23
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "FL",
+          "begin_offset": 103
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "FL",
+          "begin_offset": 122
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "FL",
+          "begin_offset": 507
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "FL",
+          "begin_offset": 913
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "FL",
+          "begin_offset": 2490
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "FL",
+          "begin_offset": 2618
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "FL",
+          "begin_offset": 3263
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "FL",
+          "begin_offset": 3561
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "FL",
+          "begin_offset": 5058
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "Intellegens Company",
+    "type": 3,
+    "salience": 0.028324299,
+    "mentions": [
+      {
+        "text": {
+          "content": "Intellegens\nCompany",
+          "begin_offset": 410
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "TFF",
+    "type": 3,
+    "salience": 0.014908285,
+    "mentions": [
+      {
+        "text": {
+          "content": "TFF",
+          "begin_offset": 2092
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "TFF",
+          "begin_offset": 2525
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "TFF",
+          "begin_offset": 3130
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "Docker",
+    "type": 3,
+    "metadata": {
+      "mid": "/m/0wkcjgj",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Docker_(software)"
+    },
+    "salience": 0.009054042,
+    "mentions": [
+      {
+        "text": {
+          "content": "Docker",
+          "begin_offset": 204
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "Docker",
+          "begin_offset": 5211
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "Integrate.AI",
+    "type": 1,
+    "salience": 0.007954822,
+    "mentions": [
+      {
+        "text": {
+          "content": "Integrate.AI"
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "GLM",
+    "type": 3,
+    "salience": 0.006375069,
+    "mentions": [
+      {
+        "text": {
+          "content": "GLM",
+          "begin_offset": 310
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "Devron",
+    "type": 1,
+    "salience": 0.003059864,
+    "mentions": [
+      {
+        "text": {
+          "content": "Devron",
+          "begin_offset": 335
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "3M",
+    "type": 3,
+    "metadata": {
+      "mid": "/m/0h1jr",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/3M"
+    },
+    "salience": 0.00303388,
+    "mentions": [
+      {
+        "text": {
+          "content": "3M",
+          "begin_offset": 697
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "Apheris",
+    "type": 1,
+    "salience": 0.00303388,
+    "mentions": [
+      {
+        "text": {
+          "content": "Apheris",
+          "begin_offset": 550
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "Tripleblind.ai",
+    "type": 1,
+    "metadata": {
+      "mid": "/m/0mkz",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    },
+    "salience": 0.0030255618,
+    "mentions": [
+      {
+        "text": {
+          "content": "Tripleblind.ai",
+          "begin_offset": 701
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "FedML.ai",
+          "begin_offset": 4888
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "Owkin",
+    "type": 1,
+    "salience": 0.0023034331,
+    "mentions": [
+      {
+        "text": {
+          "content": "Owkin",
+          "begin_offset": 887
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "IBM",
+    "type": 3,
+    "metadata": {
+      "mid": "/m/03sc8",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/IBM"
+    },
+    "salience": 0.002034237,
+    "mentions": [
+      {
+        "text": {
+          "content": "IBM",
+          "begin_offset": 1357
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "IBM",
+          "begin_offset": 4116
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "IDFA Founded",
+    "type": 1,
+    "salience": 0.0016987849,
+    "mentions": [
+      {
+        "text": {
+          "content": "IDFA \nFounded",
+          "begin_offset": 1199
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "Enveil",
+    "type": 1,
+    "salience": 0.0011394562,
+    "mentions": [
+      {
+        "text": {
+          "content": "Enveil",
+          "begin_offset": 1093
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "Apple",
+    "type": 3,
+    "metadata": {
+      "mid": "/m/0k8z",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Apple_Inc."
+    },
+    "salience": 0.0011375843,
+    "mentions": [
+      {
+        "text": {
+          "content": "Apple",
+          "begin_offset": 1189
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "Swarmin",
+    "type": 3,
+    "salience": 0.0011375843,
+    "mentions": [
+      {
+        "text": {
+          "content": "Swarmin",
+          "begin_offset": 1150
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "WeBank Now",
+    "type": 3,
+    "salience": 0.0011331326,
+    "mentions": [
+      {
+        "text": {
+          "content": "WeBank\nNow",
+          "begin_offset": 1410
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "OpenMined",
+    "type": 3,
+    "salience": 0.0010839603,
+    "mentions": [
+      {
+        "text": {
+          "content": "OpenMined",
+          "begin_offset": 1991
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "TFF",
+    "type": 4,
+    "salience": 0.0010246076,
+    "mentions": [
+      {
+        "text": {
+          "content": "TFF",
+          "begin_offset": 1831
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "UserGuide",
+    "type": 1,
+    "salience": 0.0010207021,
+    "mentions": [
+      {
+        "text": {
+          "content": "UserGuide",
+          "begin_offset": 2153
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "FL OpenFL",
+    "type": 2,
+    "salience": 0.0010041945,
+    "mentions": [
+      {
+        "text": {
+          "content": "FL\nOpenFL",
+          "begin_offset": 3063
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "TensorFlow",
+    "type": 3,
+    "metadata": {
+      "mid": "/g/11bwp1s2k3",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/TensorFlow"
+    },
+    "salience": 0.00095294253,
+    "mentions": [
+      {
+        "text": {
+          "content": "TensorFlow",
+          "begin_offset": 1890
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "TensorFlow",
+          "begin_offset": 3150
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "NVIDIA Clara",
+    "type": 1,
+    "salience": 0.0008819451,
+    "mentions": [
+      {
+        "text": {
+          "content": "NVIDIA Clara",
+          "begin_offset": 3576
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "Intel",
+    "type": 3,
+    "metadata": {
+      "mid": "/m/03s7h",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Intel"
+    },
+    "salience": 0.0008819451,
+    "mentions": [
+      {
+        "text": {
+          "content": "Intel",
+          "begin_offset": 3078
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "NVIDIA",
+    "type": 3,
+    "metadata": {
+      "mid": "/m/09rh_",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nvidia"
+    },
+    "salience": 0.0008364055,
+    "mentions": [
+      {
+        "text": {
+          "content": "NVIDIA",
+          "begin_offset": 3537
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "NVIDIA",
+          "begin_offset": 4058
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "Google",
+    "type": 3,
+    "metadata": {
+      "mid": "/m/045c7b",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Google"
+    },
+    "salience": 0.00077062345,
+    "mentions": [
+      {
+        "text": {
+          "content": "Google",
+          "begin_offset": 2364
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "opacus.ai Opacus.ai",
+    "type": 1,
+    "salience": 0.00060391607,
+    "mentions": [
+      {
+        "text": {
+          "content": "opacus.ai\nOpacus.ai",
+          "begin_offset": 4819
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "Android",
+    "type": 6,
+    "metadata": {
+      "mid": "/m/02wxtgw",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Android_(operating_system)"
+    },
+    "salience": 0.00056570466,
+    "mentions": [
+      {
+        "text": {
+          "content": "Android",
+          "begin_offset": 5123
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "Android",
+          "begin_offset": 5548
+        },
+        "type": 1
+      },
+      {
+        "text": {
+          "content": "Android",
+          "begin_offset": 5613
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "MacOs",
+    "type": 6,
+    "metadata": {
+      "mid": "/m/055yr",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/MacOS"
+    },
+    "salience": 0.00052979216,
+    "mentions": [
+      {
+        "text": {
+          "content": "MacOs",
+          "begin_offset": 5090
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "IOS",
+    "type": 6,
+    "metadata": {
+      "mid": "/m/03wbl14",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/IOS"
+    },
+    "salience": 0.00047420675,
+    "mentions": [
+      {
+        "text": {
+          "content": "IOS",
+          "begin_offset": 5572
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "Python",
+    "type": 3,
+    "metadata": {
+      "mid": "/m/05z1_",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Python_(programming_language)"
+    },
+    "salience": 0.0004627933,
+    "mentions": [
+      {
+        "text": {
+          "content": "Python",
+          "begin_offset": 5204
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "Substra",
+    "type": 1,
+    "salience": 0.00034729953,
+    "mentions": [
+      {
+        "text": {
+          "content": "Substra",
+          "begin_offset": 4421
+        },
+        "type": 1
+      }
+    ]
+  },
+  {
+    "name": "EGX",
+    "type": 3,
+    "salience": 0.00023299357,
+    "mentions": [
+      {
+        "text": {
+          "content": "EGX",
+          "begin_offset": 4065
+        },
+        "type": 1
+      }
+    ]
+  }
+]
